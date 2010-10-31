@@ -1,0 +1,73 @@
+\section{Introduction}
+
+iTestClient is used as a client program.
+It loads the test created by the server and randomly chooses the questions to form a unique test for the student.
+It can either connect to the server over a network or load the test from a file exported by the server.
+When the test is over, the results are saved into a file and if the client is connected over network, they are automatically sent to the server.
+In case of connection breakdown, the backup file can be used -- it can be loaded back into the server.
+
+\section{On-line usage}
+
+First you will need to get a server running.
+See the iTestServer documentation for further details.
+You should also know either the IP address of the server or its network name.
+For each operating system, there is different way to obtain this information, and it is thus beyond the scope of this documentation.
+
+When the server is running, run iTestClient on a client computer connected to one network with the server.
+Type the IP address of the server or its name into the Server name field and by pressing Return (Enter) move to the next field.
+Type the server port in here and press Return (Enter) again.
+The client should now connect.
+
+\sshot{itestwri-1_0_2-main-network}{Connecting to an iTest server}
+
+\section{Setting the output file location}
+
+The output file contains the answers of the student.
+It is used in case of connection breakdown or in case there is no network available and the off-line approach is used.
+
+\sshot{itestwri-1_0_2-main-output}{Setting the output file location}
+
+The default location is the home directory of the current user.
+Under Windows, this is the \\Documents and Settings\\UserName directory.
+
+If you need to specify another location, uncheck the Use default checkbox and click Browse.
+You shouldn't choose any directory visible to the student, least of all the desktop or the My Documents folder.
+
+\section{Other settings}
+
+\sshot{itestwri-1_1_1-other_settings-hide_question_names}{Hide question names}
+
+If you do not want the students to see the names of the questions, check \quo{Hide question names, show numbers instead}.
+This feature was introduced in iTest 1.1.
+
+\sshot{itestclient-1_3_0-other_settings-do_not_show_correct_answers}{Do not show correct answers}
+
+If you do not want correct answers to be displayed at the end of the test, check \quo{Do not show correct answers at the end of the test}.
+This feature was introduced in iTest 1.3.
+
+\section{Testing}
+
+When you have configured the client, it is time to click the Ready button in the lower right corner of the screen.
+
+Now is the time for the students to enter the classroom.
+They sit down in front of a client computer and are presented with the Welcome screen.
+They type in their name and click Start.
+
+They may choose to view the remaining time by clicking Show remaining time in the bottom of the screen.
+Each time they select an answer, the corresponding question turns green in the list of questions.
+The green colour does not indicate a correct answer -- just an answer.
+Whether they're right or wrong, they will be informed at the end of the test (unless you are using the off-line approach, which does not support this).
+
+If a certain question contains SVG graphics, it will be displayed below the text of the question.
+Clicking the blue title of a picture shows it in a separate window, allowing the student to resize it and thus take a closer look at it.
+This feature was introduced in iTest 1.3.
+
+When they run out of time, the test is automatically ended.
+In case they are ready sooner than that, they can choose to finish the exam by clicking Finish.
+They will be asked to confirm this action.
+
+\sshot{itestclient-1_2_0-newtest_button}{New test button}
+
+When the test is over, you can start a new one by clicking the New test button.
+If you are using the off-line approach, the media with the test file must still be connected.
+This feature was introduced in iTest 1.2.

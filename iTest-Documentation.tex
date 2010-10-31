@@ -1,0 +1,67 @@
+\newcommand{\squo}[1]{`#1'}
+\newcommand{\quo}[1]{``#1''}
+\newcommand{\doclanguage}{english}
+\newcommand{\itestversion}{1.4}
+\newcommand{\itestminorversion}{1.4.0}
+
+\let\import\input
+\import{header}
+
+\hypersetup{
+	pdftitle=iTest \itestversion{} Documentation,
+	pdfauthor=Michal Tomlein
+}
+
+\title{iTest \itestversion{} Documentation}
+\author{Michal Tomlein}
+\date{\today}
+
+\begin{document}
+
+\begin{titlepage}
+
+\begin{center}
+Computerised examination made easy
+\vspace{0.05in}
+\hrule
+
+\vfill
+
+{\huge\bf iTest \itestversion{} Documentation}\\
+\vspace{0.2in}
+Version \itestminorversion
+
+\end{center}
+
+\vfill
+
+\begin{flushleft}
+\hrule
+\vspace{0.05in}
+Author: Michal Tomlein\\
+E-mail: michal.tomlein@gmail.com\\
+Last updated: \today
+\end{flushleft}
+
+\end{titlepage}
+
+\pagestyle{empty}
+\tableofcontents
+
+\newpage
+
+\pagestyle{plain}
+
+\thispagestyle{empty}
+\part{iTestServer}
+
+\input{iTestServer}
+
+\newpage
+
+\thispagestyle{empty}
+\part{iTestClient}
+
+\input{iTestClient}
+
+\end{document}
