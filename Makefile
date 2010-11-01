@@ -1,3 +1,9 @@
+usage:
+	@echo "Targets:"
+	@echo "init - initialises and updates po files"
+	@echo "gen-latex - generates translated LaTeX files"
+	@echo "clean - clean up"
+
 init:
 	touch po/itest.pot
 	po4a --force po4a.cfg
