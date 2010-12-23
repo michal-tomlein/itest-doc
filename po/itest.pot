@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 2010-11-01 22:22+0100\n"
+"POT-Creation-Date: 2010-12-23 19:10+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,16 +101,18 @@ msgstr ""
 msgid "iTestServer"
 msgstr ""
 
+#. type: part{#2}
+#: latex/en/iTest-Documentation.tex:64
+msgid "iTestClient"
+msgstr ""
+
 #. type: section{#2}
-#: ./iTestServer.tex
-#: :2 ./iTestClient.tex
-#: :2 latex/en/iTestServer.tex:2 latex/en/iTestClient.tex:2
+#: latex/en/iTestServer.tex:2 latex/en/iTestClient.tex:2
 msgid "Introduction"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :6 latex/en/iTestServer.tex:6
+#: latex/en/iTestServer.tex:6
 msgid ""
 "iTestServer offers an easy way to organise a database of questions and "
 "answers.  It makes use of colours in a way that makes this even easier.  It "
@@ -119,8 +121,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :9 latex/en/iTestServer.tex:9
+#: latex/en/iTestServer.tex:9
 msgid ""
 "iTestServer is also used as the server, to which client computers then "
 "connect in order to retrieve a test.  It can save test sessions for later "
@@ -128,20 +129,17 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestServer.tex
-#: :11 latex/en/iTestServer.tex:11
+#: latex/en/iTestServer.tex:11
 msgid "User interface"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :13 latex/en/iTestServer.tex:13
+#: latex/en/iTestServer.tex:13
 msgid "\\sshot{itestserver-1_2_0-main-top}{The menu bar and the tool bar}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :15 latex/en/iTestServer.tex:15
+#: latex/en/iTestServer.tex:15
 msgid ""
 "The menu bar provides access to different actions, like opening, saving and "
 "closing a database in the File menu, actions related to the current view and "
@@ -151,8 +149,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :20 latex/en/iTestServer.tex:20
+#: latex/en/iTestServer.tex:20
 msgid ""
 "The tool bar features icons for actions that can also be found in the "
 "menus.  The most notable ones are the five checkable icons which follow the "
@@ -163,34 +160,29 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :22 latex/en/iTestServer.tex:22
+#: latex/en/iTestServer.tex:22
 msgid ""
 "\\sshot{itestserver-1_2_0-questions-top}{The menu bar and the tool bar when "
 "a database is open}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :24 latex/en/iTestServer.tex:24
+#: latex/en/iTestServer.tex:24
 msgid "The middle part of the window features a list of recently used databases."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :26 latex/en/iTestServer.tex:26
+#: latex/en/iTestServer.tex:26
 msgid "\\sshot{itest-1_0_2-main-list}{Recently used databases}"
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestServer.tex
-#: :28 latex/en/iTestServer.tex:28
+#: latex/en/iTestServer.tex:28
 msgid "Creating a database"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :33 latex/en/iTestServer.tex:33
+#: latex/en/iTestServer.tex:33
 msgid ""
 "To create a new database, click the New button in the File menu, in the tool "
 "bar or under the list of recent databases.  Type in a name for the "
@@ -200,22 +192,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :35 latex/en/iTestServer.tex:35
+#: latex/en/iTestServer.tex:35
 msgid ""
 "You can always change the database name later (although it's not "
 "recommended)."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :37 latex/en/iTestServer.tex:37
+#: latex/en/iTestServer.tex:37
 msgid "\\sshot{itestserver-1_4_0-questions-dbi-name}{Database name}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :39 latex/en/iTestServer.tex:39
+#: latex/en/iTestServer.tex:39
 msgid ""
 "The database also contains a date, which you can set to be the date of the "
 "last save, or to stay the same permanently (this is useful, if you want to "
@@ -223,20 +212,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :41 latex/en/iTestServer.tex:41
+#: latex/en/iTestServer.tex:41
 msgid "\\sshot{itest-1_0_2-questions-dbi-date}{Database date}"
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :43 latex/en/iTestServer.tex:43
+#: latex/en/iTestServer.tex:43
 msgid "Editing questions"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :47 latex/en/iTestServer.tex:47
+#: latex/en/iTestServer.tex:47
 msgid ""
 "To create a new question, you can either go to the Question menu and click "
 "Add, or click Add in the tool bar or below the list of questions.  Type in a "
@@ -246,20 +232,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :49 latex/en/iTestServer.tex:49
+#: latex/en/iTestServer.tex:49
 msgid "The new question will appear in the list of questions."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :51 latex/en/iTestServer.tex:51
+#: latex/en/iTestServer.tex:51
 msgid "\\sshot{itest-1_0_2-questions-filtered2-list-top}{List of questions}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :56 latex/en/iTestServer.tex:56
+#: latex/en/iTestServer.tex:56
 msgid ""
 "This list can be filtered, which is useful when you have a lot of questions, "
 "maybe even hundreds of them.  There are 5 radio buttons at the top.  The "
@@ -274,16 +257,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :58 latex/en/iTestServer.tex:58
+#: latex/en/iTestServer.tex:58
 msgid ""
 "\\sshot{itest-1_0_2-questions-filtered2-list-bottom}{Buttons below the list "
 "of questions}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :61 latex/en/iTestServer.tex:61
+#: latex/en/iTestServer.tex:61
 msgid ""
 "Below the list, there are several buttons. They are shortcuts for actions "
 "located in the Question menu.  They mean Add, Duplicate, Delete, Move up and "
@@ -291,8 +272,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :64 latex/en/iTestServer.tex:64
+#: latex/en/iTestServer.tex:64
 msgid ""
 "When you select a question to edit, it will appear on the right side of this "
 "list, in a section called Selected question.  Here you can type in the text "
@@ -300,30 +280,26 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :66 latex/en/iTestServer.tex:66
+#: latex/en/iTestServer.tex:66
 msgid "\\sshot{itestserver-1_4_0-questions-edit}{Question editor}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :68 latex/en/iTestServer.tex:68
+#: latex/en/iTestServer.tex:68
 msgid ""
 "The topmost part of this section allows you to change its name, flag and "
 "difficulty."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :70 latex/en/iTestServer.tex:70
+#: latex/en/iTestServer.tex:70
 msgid ""
 "\\sshot{itestserver-1_2_0-questions-edit-basic}{Question name, flag, group "
 "and difficulty}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :77 latex/en/iTestServer.tex:77
+#: latex/en/iTestServer.tex:77
 msgid ""
 "Below this, you can see the basic formatting tools.  The first two buttons "
 "allow you to revert the last action (left arrow) or redo a reverted action "
@@ -335,14 +311,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :79 latex/en/iTestServer.tex:79
+#: latex/en/iTestServer.tex:79
 msgid "\\sshot{itest-1_0_2-questions-edit-formatting}{Text formatting options}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :86 latex/en/iTestServer.tex:86
+#: latex/en/iTestServer.tex:86
 msgid ""
 "Attachments allow you to add graphics (Scalable Vector Graphics) to "
 "questions.  You can use programs such as Inkscape to create an SVG and then "
@@ -355,28 +329,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :88 latex/en/iTestServer.tex:88
+#: latex/en/iTestServer.tex:88
 msgid "\\sshot{itestserver-1_3_0-questions-edit-svg_tools}{SVG tools}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :90 latex/en/iTestServer.tex:90
+#: latex/en/iTestServer.tex:90
 msgid ""
 "Do not forget to click Apply or Save after any change you make to a "
 "question, because otherwise it will not be saved."
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :92 latex/en/iTestServer.tex:92
+#: latex/en/iTestServer.tex:92
 msgid "Printing questions and tests"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :96 latex/en/iTestServer.tex:96
+#: latex/en/iTestServer.tex:96
 msgid ""
 "When you've created a database with several questions, you may want to print "
 "them.  In order to do so, go to the Database menu and select Print "
@@ -384,14 +354,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :98 latex/en/iTestServer.tex:98
+#: latex/en/iTestServer.tex:98
 msgid "\\sshot{itestserver-1_3_0-print_questions}{Print questions dialogue window}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :102 latex/en/iTestServer.tex:102
+#: latex/en/iTestServer.tex:102
 msgid ""
 "If you want all questions to be printed, simply click Add all.  If you want "
 "to print questions with a specific flag or flags, select Flags (this is the "
@@ -401,8 +369,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :109 latex/en/iTestServer.tex:109
+#: latex/en/iTestServer.tex:109
 msgid ""
 "If you want to specify advanced options, check the checkbox labelled "
 "Advanced.  If Print statistics is checked, statistics will be printed for "
@@ -414,20 +381,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :111 latex/en/iTestServer.tex:111
+#: latex/en/iTestServer.tex:111
 msgid "Support for printing was introduced in iTest 1.3."
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :113 latex/en/iTestServer.tex:113
+#: latex/en/iTestServer.tex:113
 msgid "Comments"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :117 latex/en/iTestServer.tex:117
+#: latex/en/iTestServer.tex:117
 msgid ""
 "Use comments to write down anything you want.  This could be reminders, "
 "notes, to-dos and so on.  Comments are saved within the database file and "
@@ -435,26 +399,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :119 latex/en/iTestServer.tex:119
+#: latex/en/iTestServer.tex:119
 msgid "You can even use the formatting tools to make your notes look better."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :121 latex/en/iTestServer.tex:121
+#: latex/en/iTestServer.tex:121
 msgid "\\sshot{itestserver-1_2_0-comments-formatting}{Comments editor}"
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :123 latex/en/iTestServer.tex:123
+#: latex/en/iTestServer.tex:123
 msgid "Using flags"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :127 latex/en/iTestServer.tex:127
+#: latex/en/iTestServer.tex:127
 msgid ""
 "Imagine you have a database of questions from biology.  These need to be "
 "divided into several categories, for example fauna and flora.  You can do "
@@ -462,20 +422,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :129 latex/en/iTestServer.tex:129
+#: latex/en/iTestServer.tex:129
 msgid "To create a new flag, click a checkbox next to an empty field."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :131 latex/en/iTestServer.tex:131
+#: latex/en/iTestServer.tex:131
 msgid "\\sshot{itest-1_0_2-flags-checkbox}{An empty flag}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :135 latex/en/iTestServer.tex:135
+#: latex/en/iTestServer.tex:135
 msgid ""
 "Next, type in a name. \\quo{Biology - fauna} is a good example.  If this is "
 "the first flag you created, all questions will automatically be assigned "
@@ -484,16 +441,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :137 latex/en/iTestServer.tex:137
+#: latex/en/iTestServer.tex:137
 msgid ""
 "\\sshot{itestserver-1_2_0-flags-disabledcheckbox}{A flag which has been "
 "assigned to one question}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :140 latex/en/iTestServer.tex:140
+#: latex/en/iTestServer.tex:140
 msgid ""
 "Each flag has a different colour and any question with that flag has the "
 "same colour as well.  Flags are also useful when you want to set up a test "
@@ -501,14 +456,12 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestServer.tex
-#: :142 latex/en/iTestServer.tex:142
+#: latex/en/iTestServer.tex:142
 msgid "Setting up a server"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :146 latex/en/iTestServer.tex:146
+#: latex/en/iTestServer.tex:146
 msgid ""
 "To hold a test session, you will need to set up the server.  It is "
 "recommended to have a printer connected to this server.  Click the Server "
@@ -516,14 +469,12 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :149 latex/en/iTestServer.tex:149
+#: latex/en/iTestServer.tex:149
 msgid "Now you have several options. {\\bf You can:}"
 msgstr ""
 
 #. type: itemize
-#: ./iTestServer.tex
-#: :154 latex/en/iTestServer.tex:154
+#: latex/en/iTestServer.tex:154
 msgid ""
 "{\\bf set up a session using all the questions in the database.}\\\\ Leave "
 "the Advanced checkbox "
@@ -532,8 +483,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: ./iTestServer.tex
-#: :165 latex/en/iTestServer.tex:165
+#: latex/en/iTestServer.tex:165
 msgid ""
 "{\\bf set up a session using only those questions, which have a certain flag "
 "or flags.}\\\\ Check the Advanced "
@@ -554,8 +504,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: ./iTestServer.tex
-#: :172 latex/en/iTestServer.tex:172
+#: latex/en/iTestServer.tex:172
 msgid ""
 "{\\bf set up a session using only manually selected questions.}\\\\ Check "
 "the Advanced "
@@ -568,20 +517,17 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :174 latex/en/iTestServer.tex:174
+#: latex/en/iTestServer.tex:174
 msgid "Below, there are several parameters to set."
 msgstr ""
 
 #. type: item[#1]
-#: ./iTestServer.tex
-#: :181 latex/en/iTestServer.tex:181
+#: latex/en/iTestServer.tex:181
 msgid "Test name:"
 msgstr ""
 
 #. type: description
-#: ./iTestServer.tex
-#: :181 latex/en/iTestServer.tex:181
+#: latex/en/iTestServer.tex:181
 msgid ""
 "Unless you want to specify a custom test name, you may leave the checkbox "
 "unchecked.  The database name will be used as the test name.  However, if "
@@ -591,14 +537,12 @@ msgid ""
 msgstr ""
 
 #. type: item[#1]
-#: ./iTestServer.tex
-#: :187 latex/en/iTestServer.tex:187
+#: latex/en/iTestServer.tex:187
 msgid "Number of questions:"
 msgstr ""
 
 #. type: description
-#: ./iTestServer.tex
-#: :187 latex/en/iTestServer.tex:187
+#: latex/en/iTestServer.tex:187
 msgid ""
 "Here you can choose the number of questions each student will be asked.  The "
 "questions will be chosen automatically (limited only by your settings from "
@@ -609,14 +553,12 @@ msgid ""
 msgstr ""
 
 #. type: item[#1]
-#: ./iTestServer.tex
-#: :194 latex/en/iTestServer.tex:194
+#: latex/en/iTestServer.tex:194
 msgid "Groups:"
 msgstr ""
 
 #. type: description
-#: ./iTestServer.tex
-#: :194 latex/en/iTestServer.tex:194
+#: latex/en/iTestServer.tex:194
 msgid ""
 "Check this checkbox to allow a single question per group to appear in one "
 "test only.  This means that once a question from a group is randomly chosen, "
@@ -628,14 +570,12 @@ msgid ""
 msgstr ""
 
 #. type: item[#1]
-#: ./iTestServer.tex
-#: :198 latex/en/iTestServer.tex:198
+#: latex/en/iTestServer.tex:198
 msgid "Pass mark:"
 msgstr ""
 
 #. type: description
-#: ./iTestServer.tex
-#: :198 latex/en/iTestServer.tex:198
+#: latex/en/iTestServer.tex:198
 msgid ""
 "Here you can choose the minimum number of correct answers the student must "
 "have in order to pass the exam.\\\\\\\\ "
@@ -643,14 +583,12 @@ msgid ""
 msgstr ""
 
 #. type: item[#1]
-#: ./iTestServer.tex
-#: :206 latex/en/iTestServer.tex:206
+#: latex/en/iTestServer.tex:206
 msgid "Time:"
 msgstr ""
 
 #. type: description
-#: ./iTestServer.tex
-#: :206 latex/en/iTestServer.tex:206
+#: latex/en/iTestServer.tex:206
 msgid ""
 "You may choose to specify a certain exam time by selecting \\quo{(Time for) "
 "the whole test} and specifying the time.  However, you can also specify the "
@@ -663,16 +601,14 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :209 latex/en/iTestServer.tex:209
+#: latex/en/iTestServer.tex:209
 msgid ""
 "You are now ready to start the server.  Click the Start server button or go "
 "to the Server menu and select Start server."
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :215 latex/en/iTestServer.tex:215
+#: latex/en/iTestServer.tex:215
 msgid ""
 "If you haven't configured the printer yet, you will be asked to do so.  When "
 "you select the printer to use and configure it, you will have to click "
@@ -683,8 +619,7 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :219 latex/en/iTestServer.tex:219
+#: latex/en/iTestServer.tex:219
 msgid ""
 "If you don't want to print the results and you want to keep them in an "
 "electronic form instead (so that you can mail them to the students, for "
@@ -696,36 +631,31 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :223 latex/en/iTestServer.tex:223
+#: latex/en/iTestServer.tex:223
 msgid ""
 "Now you may connect client computers.  See the iTestClient documentation for "
 "details on how to do this."
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :225 latex/en/iTestServer.tex:225
+#: latex/en/iTestServer.tex:225
 msgid "Off-line usage"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :227 latex/en/iTestServer.tex:227
+#: latex/en/iTestServer.tex:227
 msgid ""
 "In case there is no network available, you will need to load the test into "
 "each client computer manually:"
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :230 latex/en/iTestServer.tex:230
+#: latex/en/iTestServer.tex:230
 msgid "Set up a server the normal way."
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :234 latex/en/iTestServer.tex:234
+#: latex/en/iTestServer.tex:234
 msgid ""
 "Export a test by going to the Server menu and selecting Export test.  Save "
 "it to a flash disk or any other kind of removable media.  Do not stop the "
@@ -733,14 +663,12 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :236 latex/en/iTestServer.tex:236
+#: latex/en/iTestServer.tex:236
 msgid "Plug the media into a client computer."
 msgstr ""
 
 #. type: itemize
-#: ./iTestServer.tex
-#: :240 latex/en/iTestServer.tex:240
+#: latex/en/iTestServer.tex:240
 msgid ""
 "Under {\\bf Windows}, you can open the Explorer window, go to the folder "
 "with your exported test and double click the file.  Once it is loaded into "
@@ -749,8 +677,7 @@ msgid ""
 msgstr ""
 
 #. type: itemize
-#: ./iTestServer.tex
-#: :245 latex/en/iTestServer.tex:245
+#: latex/en/iTestServer.tex:245
 msgid ""
 "Under {\\bf any} other {\\bf operating system} (and Windows, if you prefer "
 "this way), run iTestClient, manually locate the file on the media and load "
@@ -760,8 +687,7 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :249 latex/en/iTestServer.tex:249
+#: latex/en/iTestServer.tex:249
 msgid ""
 "When the students finish their tests, plug the removable media into each "
 "client computer and copy the file, which was generated by iTestClient.  By "
@@ -772,8 +698,7 @@ msgid ""
 msgstr ""
 
 #. type: enumerate
-#: ./iTestServer.tex
-#: :256 latex/en/iTestServer.tex:256
+#: latex/en/iTestServer.tex:256
 msgid ""
 "Plug the removable media into the server.  From the Server menu, select Add "
 "off-line clients.  Select the directory on the removable media with all the "
@@ -782,14 +707,12 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestServer.tex
-#: :258 latex/en/iTestServer.tex:258
+#: latex/en/iTestServer.tex:258
 msgid "Viewing saved sessions"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :261 latex/en/iTestServer.tex:261
+#: latex/en/iTestServer.tex:261
 msgid ""
 "In order to be able to view past sessions, you need to check the Save "
 "session option the Server menu when the server is running.  It will then be "
@@ -797,8 +720,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :266 latex/en/iTestServer.tex:266
+#: latex/en/iTestServer.tex:266
 msgid ""
 "To view a session, switch the view to Saved sessions by clicking the icon in "
 "the toolbar.  You will see the session in the list of sessions.  Double "
@@ -807,28 +729,24 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :268 latex/en/iTestServer.tex:268
+#: latex/en/iTestServer.tex:268
 msgid "\\sshot{itest-1_0_2-saved_sessions-list}{List of saved sessions}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :270 latex/en/iTestServer.tex:270
+#: latex/en/iTestServer.tex:270
 msgid ""
 "You can now view the results of a student by clicking a name in the list of "
 "students."
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :272 latex/en/iTestServer.tex:272
+#: latex/en/iTestServer.tex:272
 msgid "Printing"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :276 latex/en/iTestServer.tex:276
+#: latex/en/iTestServer.tex:276
 msgid ""
 "When you're viewing a saved session, you can also print results of a "
 "student, of all students or a summary of the session.  In orded to do this, "
@@ -838,14 +756,12 @@ msgid ""
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :278 latex/en/iTestServer.tex:278
+#: latex/en/iTestServer.tex:278
 msgid "Exporting a log"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :283 latex/en/iTestServer.tex:283
+#: latex/en/iTestServer.tex:283
 msgid ""
 "If a session has a log, you can export it as an html document.  In order to "
 "do this, a session must be loaded.  To export a log, go to the Session menu "
@@ -854,14 +770,12 @@ msgid ""
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :285 latex/en/iTestServer.tex:285
+#: latex/en/iTestServer.tex:285
 msgid "Deleting a log"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :290 latex/en/iTestServer.tex:290
+#: latex/en/iTestServer.tex:290
 msgid ""
 "When a session log is no longer needed, you can delete it to save disk "
 "space.  In order to do this, a session must be loaded.  To delete a log, go "
@@ -870,14 +784,12 @@ msgid ""
 msgstr ""
 
 #. type: subsection{#2}
-#: ./iTestServer.tex
-#: :292 latex/en/iTestServer.tex:292
+#: latex/en/iTestServer.tex:292
 msgid "Archiving, restoring and copying a session"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :298 latex/en/iTestServer.tex:298
+#: latex/en/iTestServer.tex:298
 msgid ""
 "In iTest 1.1, a new feature called archive was introduced.  The archive can "
 "store sessions, which are associated with the database by its name.  When "
@@ -888,8 +800,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :301 latex/en/iTestServer.tex:301
+#: latex/en/iTestServer.tex:301
 msgid ""
 "Archiving a session is easy, you just need to load the session you wish to "
 "archive, go to the Session menu and select Archive session.  You'll see the "
@@ -897,36 +808,31 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :303 latex/en/iTestServer.tex:303
+#: latex/en/iTestServer.tex:303
 msgid "\\sshot{itest-1_1_1-saved_sessions-archive}{List of archived sessions}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :306 latex/en/iTestServer.tex:306
+#: latex/en/iTestServer.tex:306
 msgid ""
 "Restoring a session brings it back into the database.  To do so, choose "
 "Restore session from the Session menu."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :308 latex/en/iTestServer.tex:308
+#: latex/en/iTestServer.tex:308
 msgid ""
 "To copy a session to or from the archive, use the appropriate actions in the "
 "Session menu."
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestServer.tex
-#: :310 latex/en/iTestServer.tex:310
+#: latex/en/iTestServer.tex:310
 msgid "Using the statistics"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :315 latex/en/iTestServer.tex:315
+#: latex/en/iTestServer.tex:315
 msgid ""
 "iTest remembers every answer of every student, correct or wrong.  The number "
 "of correct and incorrect answers is saved in the database along with the "
@@ -936,16 +842,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :317 latex/en/iTestServer.tex:317
+#: latex/en/iTestServer.tex:317
 msgid ""
 "\\sshot{itest-1_0_2-questions-statistics}{Statistics available for a "
 "question}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :322 latex/en/iTestServer.tex:322
+#: latex/en/iTestServer.tex:322
 msgid ""
 "By clicking \\quo{adjust difficulty}, the difficulty of the question is set "
 "to the calculated one.  You can also adjust the difficulty of all questions "
@@ -954,29 +858,22 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestServer.tex
-#: :324 latex/en/iTestServer.tex:324
+#: latex/en/iTestServer.tex:324
 msgid ""
 "\\sshot{itestserver-1_2_0-statistics-window}{Overall statistics for a "
 "database}"
 msgstr ""
 
 #. type: Plain text
-#: latex/en/iTest-Documentation.tex:59 latex/en/iTestServer.tex:326
+#: latex/en/iTestServer.tex:326
 msgid ""
 "Click Adjust all to change the difficulties of all questions to the "
 "calculated ones.  You can also change the difficulty of some questions only "
 "by clicking the corresponding Adjust difficulty button on the right."
 msgstr ""
 
-#. type: part{#2}
-#: latex/en/iTest-Documentation.tex:64
-msgid "iTestClient"
-msgstr ""
-
 #. type: Plain text
-#: ./iTestClient.tex
-#: :8 latex/en/iTestClient.tex:8
+#: latex/en/iTestClient.tex:8
 msgid ""
 "iTestClient is used as a client program.  It loads the test created by the "
 "server and randomly chooses the questions to form a unique test for the "
@@ -988,14 +885,12 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestClient.tex
-#: :10 latex/en/iTestClient.tex:10
+#: latex/en/iTestClient.tex:10
 msgid "On-line usage"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :15 latex/en/iTestClient.tex:15
+#: latex/en/iTestClient.tex:15
 msgid ""
 "First you will need to get a server running.  See the iTestServer "
 "documentation for further details.  You should also know either the IP "
@@ -1005,8 +900,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :20 latex/en/iTestClient.tex:20
+#: latex/en/iTestClient.tex:20
 msgid ""
 "When the server is running, run iTestClient on a client computer connected "
 "to one network with the server.  Type the IP address of the server or its "
@@ -1016,20 +910,17 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :22 latex/en/iTestClient.tex:22
+#: latex/en/iTestClient.tex:22
 msgid "\\sshot{itestwri-1_0_2-main-network}{Connecting to an iTest server}"
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestClient.tex
-#: :24 latex/en/iTestClient.tex:24
+#: latex/en/iTestClient.tex:24
 msgid "Setting the output file location"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :27 latex/en/iTestClient.tex:27
+#: latex/en/iTestClient.tex:27
 msgid ""
 "The output file contains the answers of the student.  It is used in case of "
 "connection breakdown or in case there is no network available and the "
@@ -1037,22 +928,19 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :29 latex/en/iTestClient.tex:29
+#: latex/en/iTestClient.tex:29
 msgid "\\sshot{itestwri-1_0_2-main-output}{Setting the output file location}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :32 latex/en/iTestClient.tex:32
+#: latex/en/iTestClient.tex:32
 msgid ""
 "The default location is the home directory of the current user.  Under "
 "Windows, this is the \\\\Documents and Settings\\\\UserName directory."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :35 latex/en/iTestClient.tex:35
+#: latex/en/iTestClient.tex:35
 msgid ""
 "If you need to specify another location, uncheck the Use default checkbox "
 "and click Browse.  You shouldn't choose any directory visible to the "
@@ -1060,22 +948,19 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestClient.tex
-#: :37 latex/en/iTestClient.tex:37
+#: latex/en/iTestClient.tex:37
 msgid "Other settings"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :39 latex/en/iTestClient.tex:39
+#: latex/en/iTestClient.tex:39
 msgid ""
 "\\sshot{itestwri-1_1_1-other_settings-hide_question_names}{Hide question "
 "names}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :42 latex/en/iTestClient.tex:42
+#: latex/en/iTestClient.tex:42
 msgid ""
 "If you do not want the students to see the names of the questions, check "
 "\\quo{Hide question names, show numbers instead}.  This feature was "
@@ -1083,16 +968,14 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :44 latex/en/iTestClient.tex:44
+#: latex/en/iTestClient.tex:44
 msgid ""
 "\\sshot{itestclient-1_3_0-other_settings-do_not_show_correct_answers}{Do not "
 "show correct answers}"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :47 latex/en/iTestClient.tex:47
+#: latex/en/iTestClient.tex:47
 msgid ""
 "If you do not want correct answers to be displayed at the end of the test, "
 "check \\quo{Do not show correct answers at the end of the test}.  This "
@@ -1100,22 +983,19 @@ msgid ""
 msgstr ""
 
 #. type: section{#2}
-#: ./iTestClient.tex
-#: :49 latex/en/iTestClient.tex:49
+#: latex/en/iTestClient.tex:49
 msgid "Testing"
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :51 latex/en/iTestClient.tex:51
+#: latex/en/iTestClient.tex:51
 msgid ""
 "When you have configured the client, it is time to click the Ready button in "
 "the lower right corner of the screen."
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :55 latex/en/iTestClient.tex:55
+#: latex/en/iTestClient.tex:55
 msgid ""
 "Now is the time for the students to enter the classroom.  They sit down in "
 "front of a client computer and are presented with the Welcome screen.  They "
@@ -1123,8 +1003,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :60 latex/en/iTestClient.tex:60
+#: latex/en/iTestClient.tex:60
 msgid ""
 "They may choose to view the remaining time by clicking Show remaining time "
 "in the bottom of the screen.  Each time they select an answer, the "
@@ -1135,8 +1014,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :64 latex/en/iTestClient.tex:64
+#: latex/en/iTestClient.tex:64
 msgid ""
 "If a certain question contains SVG graphics, it will be displayed below the "
 "text of the question.  Clicking the blue title of a picture shows it in a "
@@ -1145,8 +1023,7 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :68 latex/en/iTestClient.tex:68
+#: latex/en/iTestClient.tex:68
 msgid ""
 "When they run out of time, the test is automatically ended.  In case they "
 "are ready sooner than that, they can choose to finish the exam by clicking "
@@ -1154,13 +1031,12 @@ msgid ""
 msgstr ""
 
 #. type: Plain text
-#: ./iTestClient.tex
-#: :70 latex/en/iTestClient.tex:70
+#: latex/en/iTestClient.tex:70
 msgid "\\sshot{itestclient-1_2_0-newtest_button}{New test button}"
 msgstr ""
 
 #. type: Plain text
-#: latex/en/iTest-Documentation.tex:66 latex/en/iTestClient.tex:73
+#: latex/en/iTestClient.tex:73
 msgid ""
 "When the test is over, you can start a new one by clicking the New test "
 "button.  If you are using the off-line approach, the media with the test "
