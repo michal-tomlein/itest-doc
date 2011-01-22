@@ -10,8 +10,10 @@ init:
 
 gen-latex:
 	po4a po4a.cfg
+	./scripts/copyheader.sh
 
-gen-pdf:
+gen-pdf: gen-latex
+	./scripts/gen-pdf.sh
 
 gen-html:
 
@@ -23,3 +25,4 @@ clean:
 			-or -iname '*.out' \
 			-or -iname '*.toc' \)`
 	@/bin/rm -fr `find latex/?? -type d -iname 'auto'`
+	@/bin/rm -fr pdf/*

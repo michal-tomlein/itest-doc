@@ -1,18 +1,32 @@
 INSTRUCTIONS FOR TRANSLATORS
 
+
+Installation
+------------
+
 Following programs must be present on you system:
   make
   po4a (updates po files and generates translated LaTeX documents)
   LaTeX
   hevea (generates HTML files from LaTeX sources. Optional)
 
-To add a translation to the project add a $lang.po file to the po directory.
-$lang is a ISO 639-1 two letter language code (See
-http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).  Then run
-  $ make init
+To install the translation infrastrucutre just get the repository.
 
-Translate the .po file.  To generate translated latex documents in latex/$lang
-run 
+
+Starting new translation
+------------------------
+
+To start a translation add a $lang.po file to the po directory.  $lang must be a
+ISO 639-1 two letter language code (See
+http://en.wikipedia.org/wiki/List_of_ISO_639-1_codes).  Then run $ make init
+
+Translate the .po file.  
+
+
+LaTeX - the base format
+-----------------------
+
+To generate translated latex documents in latex/$lang run 
   $ make gen-latex
 
 Screenshots for latex documents are saved in the images/$language, where
@@ -30,3 +44,12 @@ If you don't want to create screenshots for your language, you can use the
 english screenshots by creating a symlink:
   $ cd images
   $ ln -s english $language
+
+
+PDF
+---
+
+To generate PDF's for all translations run
+  $ make gen-pdf
+
+Our use pdflatex to generate a PDF for a given translation.
