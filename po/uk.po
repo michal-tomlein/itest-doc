@@ -1,97 +1,117 @@
+# Header entry was created by Lokalize.
+#
+#. type: newcommand{#4}
+#: latex/en/iTest-Documentation.tex:6
+# Yatsenko Alexandr <yatsenko.alexandr@gmail.com>, 2011.
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Mime-Version: 1.0Last-Translator: Yatsenko Alexandr <yatsenko.alexandr@gmail."
+"com>\n"
+"PO-Revision-Date: 2011-01-21 19:01+0200\n"
+"Project-Id-Version: \n"
+"Language-Team: Ukrainian <translation@linux.org.ua>\n"
+"X-Generator: Lokalize 1.1\n"
+"MIME-Version: 1.0\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Last-Translator: Yatsenko Alexandr <yatsenko.alexandr@gmail.com>\n"
+
 #. type: newcommand{#4}
 #: latex/en/iTest-Documentation.tex:6
 msgid "`#1'"
-msgstr ""
+msgstr "`#1'"
 
 #. type: newcommand{#4}
 #: latex/en/iTest-Documentation.tex:6
 msgid "``#1''"
-msgstr ""
+msgstr "``#1''"
 
 #. type: newcommand{#4}
 #: latex/en/iTest-Documentation.tex:6
 msgid "english"
-msgstr ""
+msgstr "українська"
 
 #. type: newcommand{#4}
 #: latex/en/iTest-Documentation.tex:6
 msgid "1.4"
-msgstr ""
+msgstr "1.4"
 
 #. type: newcommand{#4}
 #: latex/en/iTest-Documentation.tex:6
 msgid "1.4.0"
-msgstr ""
+msgstr "1.4.0"
 
 #. type: Plain text
 #: latex/en/iTest-Documentation.tex:9
 msgid "\\let\\import\\input \\import{header}"
-msgstr ""
+msgstr "\\let\\import\\input \\import{header}"
 
 #. type: hypersetup{#1}
 #: latex/en/iTest-Documentation.tex:14
 msgid "pdftitle=iTest \\itestversion{} Documentation, pdfauthor=Michal Tomlein"
 msgstr ""
+"pdftitle=iTest \\itestversion{} Documentation, pdfauthor=Michal Tomlein"
 
 #. type: title{#1}
 #: latex/en/iTest-Documentation.tex:18
 msgid "iTest \\itestversion{} Documentation"
-msgstr ""
+msgstr "iTest \\itestversion{} Documentation"
 
 #. type: author{#1}
 #: latex/en/iTest-Documentation.tex:18
 msgid "Michal Tomlein"
-msgstr ""
+msgstr "Michal Tomlein"
 
 #. type: Plain text
 #: latex/en/iTest-Documentation.tex:18
 msgid "\\date{\\today}"
-msgstr ""
+msgstr "\\date{\\today}"
 
 #. type: center
 #: latex/en/iTest-Documentation.tex:27
 msgid "Computerised examination made easy \\vspace{0.05in} \\hrule"
-msgstr ""
+msgstr "Комп'ютерне тестування - це просто \\vspace{0.05in} \\hrule"
 
 #. type: center
 #: latex/en/iTest-Documentation.tex:33
 msgid "{\\huge\\bf iTest \\itestversion{} Documentation}"
-msgstr ""
+msgstr "{\\huge\\bf iTest \\itestversion{} Documentation}"
 
 #. type: center
 #: latex/en/iTest-Documentation.tex:33
 msgid "\\vspace{0.2in} Version \\itestminorversion"
-msgstr ""
+msgstr "\\vspace{0.2in} Версія \\itestminorversion"
 
 #. type: flushleft
 #: latex/en/iTest-Documentation.tex:45
 msgid "\\hrule \\vspace{0.05in} Author: Michal Tomlein"
-msgstr ""
+msgstr "\\hrule \\vspace{0.05in} Автор: Michal Tomlein"
 
 #. type: flushleft
 #: latex/en/iTest-Documentation.tex:45
 msgid "E-mail: michal.tomlein@gmail.com"
-msgstr ""
+msgstr "E-mail: michal.tomlein@gmail.com"
 
 #. type: flushleft
 #: latex/en/iTest-Documentation.tex:45
 msgid "Last updated: \\today"
-msgstr ""
+msgstr "Востаннє оновлено: \\today"
 
 #. type: part{#2}
 #: latex/en/iTest-Documentation.tex:57
 msgid "iTestServer"
-msgstr ""
+msgstr "iTestServer"
 
 #. type: part{#2}
 #: latex/en/iTest-Documentation.tex:64
 msgid "iTestClient"
-msgstr ""
+msgstr "iTestClient"
 
 #. type: section{#2}
 #: latex/en/iTestServer.tex:2 latex/en/iTestClient.tex:2
 msgid "Introduction"
-msgstr ""
+msgstr "Введення"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:6
@@ -101,6 +121,9 @@ msgid ""
 "features a simple rich text editor that allows you to format your questions "
 "just the way you like."
 msgstr ""
+"iTestServer дозволяє легко впорядковувати базу даних запитань та відповідей. "
+"Це досягається за допомогою використання кольорів. Наявний простий "
+"текстовий редактор, що дозволяє здійснювати форматування тексту запитань."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:9
@@ -109,16 +132,21 @@ msgid ""
 "connect in order to retrieve a test.  It can save test sessions for later "
 "viewing and allows you to view and print statistics."
 msgstr ""
+"iTestServer також використовується як сервер, до якого під'єднуються "
+"клієнтські комп'ютери для отримання тесту. Він може зберігати тестові "
+"сесії для подальшого перегляду та дозволяє вам друкувати та "
+"переглядати статистику."
 
 #. type: section{#2}
 #: latex/en/iTestServer.tex:11
 msgid "User interface"
-msgstr ""
+msgstr "Інтерфейс користувача"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:13
 msgid "\\sshot{itestserver-1_2_0-main-top}{The menu bar and the tool bar}"
 msgstr ""
+"\\sshot{itestserver-1_2_0-main-top}{Головне меню та панель інструментів}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:15
@@ -129,6 +157,12 @@ msgid ""
 "actions in the Database menu or a link to this documentation and an update "
 "checker in the Help menu."
 msgstr ""
+"Головне меню дозволяє виконувати різні дії, зокрема відкривати, зберігати "
+"та закривати базу даних в меню \"Файл\", дії, пов'язані з виглядом та мовою "
+"в "
+"меню \"Вигляд\", переглядати статистику бази даних та інші дії, пов'язані з "
+"цим, в меню \"База даних\", посилання на цю документацію та перевірка на "
+"оновлення в меню \"Довідка\"."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:20
@@ -140,6 +174,13 @@ msgid ""
 "and running the server (Server mode) and viewing saved sessions (Saved "
 "sessions).  Of course, this only works when a database is open."
 msgstr ""
+"Панель інструментів містить кнопки дій, що також є в головному меню. "
+"Найбільш вживані п'ять команд розташовані за кнопкою \"Зберегти\". Ви "
+"можете використовувати їх для перемикання в режим редагування запитань "
+"(Питання), написання нотаток (Коментарі), створення категорії (Категорії), "
+"налаштування та запуск сервера (Режим сервера) та перегляд збережених "
+"результатів (Збережені сесії). Ці кнопки працюють лише тоді, коли будь яка "
+"база даних відкрита."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:22
@@ -147,22 +188,26 @@ msgid ""
 "\\sshot{itestserver-1_2_0-questions-top}{The menu bar and the tool bar when "
 "a database is open}"
 msgstr ""
+"\\sshot{itestserver-1_2_0-questions-top}{Головне меню та панель інструментів "
+"та відкрита база даних}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:24
 msgid ""
 "The middle part of the window features a list of recently used databases."
 msgstr ""
+"В середній частині вікна показано список баз даних, що були відкриті "
+"останніми."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:26
 msgid "\\sshot{itest-1_0_2-main-list}{Recently used databases}"
-msgstr ""
+msgstr "\\sshot{itest-1_0_2-main-list}{Останні бази даних}"
 
 #. type: section{#2}
 #: latex/en/iTestServer.tex:28
 msgid "Creating a database"
-msgstr ""
+msgstr "Створення бази даних"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:33
@@ -173,18 +218,23 @@ msgid ""
 "represent the content of the database well.  After this, choose a name for "
 "the database file."
 msgstr ""
+"Щоб створити нову базу даних, клацніть на кнопку \"Нова\" на панелі "
+"інструментів, або оберіть відповідний пункт із меню \"Файл\". Уведіть ім'я "
+"бази даних. Будь ласка, називайте розсудливо, ім'я не має бути надто довгим "
+"і повинно відображати вміст бази даних. Після цього, уведіть ім'я файлу бази "
+"даних."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:35
 msgid ""
 "You can always change the database name later (although it's not "
 "recommended)."
-msgstr ""
+msgstr "Ви можете змінити ім'я бази даних пізніше (не рекомендовано)"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:37
 msgid "\\sshot{itestserver-1_4_0-questions-dbi-name}{Database name}"
-msgstr ""
+msgstr "\\sshot{itestserver-1_4_0-questions-dbi-name}{Ім'я бази даних}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:39
@@ -193,16 +243,18 @@ msgid ""
 "last save, or to stay the same permanently (this is useful, if you want to "
 "keep the date when you created the database)."
 msgstr ""
+"База даних може зберігати дату останньої зміни, або залишати попередню. "
+"(це потрібно, якщо ви хочете зберегти дату створення бази даних)"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:41
 msgid "\\sshot{itest-1_0_2-questions-dbi-date}{Database date}"
-msgstr ""
+msgstr "\\sshot{itest-1_0_2-questions-dbi-date}{Дата бази даних}"
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:43
 msgid "Editing questions"
-msgstr ""
+msgstr "Зміна запитань"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:47
@@ -213,16 +265,21 @@ msgid ""
 "of the question.  It should be a unique, descriptive name for the question "
 "which will remind you about the topic of the question."
 msgstr ""
+"Щоб створити нове запитання, клацніть \"Добавити\" в меню \"Питання\" , "
+"або на панелі інструментів, або під списком запитань. Уведіть ім'я для "
+"запитання - воно має бути коротким і не давати підказок до нього. Ім'я, "
+"також, не має повторюватися, бути інформативним щодо теми самого "
+"запитання."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:49
 msgid "The new question will appear in the list of questions."
-msgstr ""
+msgstr "Нове запитання з'явиться в списку."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:51
 msgid "\\sshot{itest-1_0_2-questions-filtered2-list-top}{List of questions}"
-msgstr ""
+msgstr "\\sshot{itest-1_0_2-questions-filtered2-list-top}{Список запитань}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:56
@@ -238,6 +295,13 @@ msgid ""
 "Search field, it turns yellow if any question matches your search or red if "
 "none found."
 msgstr ""
+"Список може бути відфільтрованим, що корисно коли ви маєте багато "
+"запитань, скажімо, декілька сотень. Зверху є 5 перемикачів. Перший "
+"показує всі запитання, другий, зелений - тільки легкі, третій (оранжевий) "
+" - середні, четвертий (червоний) - важкі та останній, з прапорцем, показує "
+"запитання лише обраної категорії, яку ви можете вказати у комбосписку "
+"нижче. Якщо ви уведете ключове слово в поле пошуку, воно стане жовтим, "
+"якщо є відповідні цьому слову питання, або червоним, якщо немає."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:58
@@ -245,6 +309,8 @@ msgid ""
 "\\sshot{itest-1_0_2-questions-filtered2-list-bottom}{Buttons below the list "
 "of questions}"
 msgstr ""
+"\\sshot{itest-1_0_2-questions-filtered2-list-bottom}{Кнопки під списком "
+"запитань}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:61
@@ -253,6 +319,9 @@ msgid ""
 "located in the Question menu.  They mean Add, Duplicate, Delete, Move up and "
 "Move down, respectively."
 msgstr ""
+"Під списком є декілька кнопок. Вони відповідають діям із меню \"Питання\". "
+"Ними можна додати, дублювати, вилучити запитання та рухати їх уверх чи "
+"вниз по списку."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:64
@@ -261,11 +330,15 @@ msgid ""
 "list, in a section called Selected question.  Here you can type in the text "
 "of the question, its answers and select the correct one(s)."
 msgstr ""
+"Коли ви обираєте запитання, щоб змінити його, воно з'являється справа "
+"від списку в секції \"Обране питання\". Тут ви можете увести текст "
+"запитання, "
+"варіанти відповідей та обрати вірний(і) з них."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:66
 msgid "\\sshot{itestserver-1_4_0-questions-edit}{Question editor}"
-msgstr ""
+msgstr "\\sshot{itestserver-1_4_0-questions-edit}{Редактор запитань}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:68
@@ -273,6 +346,7 @@ msgid ""
 "The topmost part of this section allows you to change its name, flag and "
 "difficulty."
 msgstr ""
+"Верхня частина цієї секції дозволяє задати його ім'я, категорію та важкість."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:70
@@ -280,6 +354,8 @@ msgid ""
 "\\sshot{itestserver-1_2_0-questions-edit-basic}{Question name, flag, group "
 "and difficulty}"
 msgstr ""
+"\\sshot{itestserver-1_2_0-questions-edit-basic}{Ім'я запитання, категорія "
+"та важкість}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:77
@@ -292,11 +368,19 @@ msgid ""
 "colour of the text.  And finally, L stands for align left, C for centre, R "
 "for right and J for justify."
 msgstr ""
+"Нижче ви можете побачити стандартну панель форматування. Перші дві "
+"кнопки дозволяють скасувати та повернути останню дію (ліва та права "
+"стрілки). Далі - комбосписки для зміни шрифту та розміру тексту. Далі "
+"є кнопки для вмикання напівжирного (Ж), курсиву (К) та підкресленого (Ч) "
+"накреслення. Наступна кнопка дозволяє обрати колір тексту. І останні "
+"кнопки вирівнюють по лівому (Л), правому (П) краях, по центру (Ц) та по "
+"ширині тексту (Ш) "
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:79
 msgid "\\sshot{itest-1_0_2-questions-edit-formatting}{Text formatting options}"
 msgstr ""
+"\\sshot{itest-1_0_2-questions-edit-formatting}{Кнопки форматування тексту}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:86
@@ -310,11 +394,19 @@ msgid ""
 "from iTest, which is useful if you've deleted the original SVG file and want "
 "to make changes to it.  SVG support was introduced in iTest 1.3."
 msgstr ""
+"Вкладення дозволяють вам додавати графіку в форматі SVG (масштабована "
+"векторна графіка) до запитань. Можна скористатися програмами типу Inkscape "
+"для створення SVG та імпортувати її до iTest. Щоб вилучити вкладення, "
+"оберіть його "
+"та натисніть кнопку з мінусом. Остання кнопка в ряду дозволяє експортувати "
+"SVG з iTest, що згодиться, коли ви видалили оригінальний файл, або хочете "
+"зробити "
+"зміни у вкладенні. Підтримка SVG з'явилася в iTest 1.3."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:88
 msgid "\\sshot{itestserver-1_3_0-questions-edit-svg_tools}{SVG tools}"
-msgstr ""
+msgstr "\\sshot{itestserver-1_3_0-questions-edit-svg_tools}{інструменти SVG}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:90
@@ -322,11 +414,13 @@ msgid ""
 "Do not forget to click Apply or Save after any change you make to a "
 "question, because otherwise it will not be saved."
 msgstr ""
+"Не забувайте натиснути Застосувати або Зберегти після того, як "
+"ви внесли зміни до запитання, інакше вони будуть втрачені."
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:92
 msgid "Printing questions and tests"
-msgstr ""
+msgstr "Друк запитань та тестів"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:96
@@ -335,12 +429,15 @@ msgid ""
 "them.  In order to do so, go to the Database menu and select Print "
 "questions.  A window will show up."
 msgstr ""
+"Створивши базу даних із кількома запитаннями, ви можете їх роздрукувати. "
+"Для цього зайдіть до меню База даних та оберіть Друкувати питання. "
+"З'явиться вікно друку."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:98
 msgid ""
 "\\sshot{itestserver-1_3_0-print_questions}{Print questions dialogue window}"
-msgstr ""
+msgstr "\\sshot{itestserver-1_3_0-print_questions}{Вікно друку запитань}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:102
@@ -351,6 +448,10 @@ msgid ""
 "questions to print manually, select Questions and double click any question "
 "you want to print."
 msgstr ""
+"Якщо ви хочете друкувати всі питання, натисніть Добавити все. Якщо треба "
+"друкувати питання з обраних категорій, оберіть Категорії та двічі клацніть "
+"по потрібним категоріям. Якщо ви хочете обрати запитання для друку вручну, "
+"Питання та двічі клацніть по потрібних питаннях."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:109
@@ -363,16 +464,23 @@ msgid ""
 "answers will not be highlighted.  Lastly, if you want to print SVG "
 "attachments, check Print graphics."
 msgstr ""
+"Якщо ви хочете визначити додаткові налаштування, поставте прапорець "
+"Додатково. Якщо обрано Друк статистики, вона буде надрукована на "
+"кожне запитання, яке було використане в тестуванні. Якщо ви хочете вимкнути "
+"форматування, зніміть прапорець Друк відформатованих питань. Якщо ви "
+"хочете використовувати роздруківки з метою тестування - відмітьте "
+"Друкувати тест. В цьому разі не буде позначено вірних відповідей. "
+"Врешті, якщо ви хочете друкувати SVG вкладення, позначте Друкувати графіку."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:111
 msgid "Support for printing was introduced in iTest 1.3."
-msgstr ""
+msgstr "Підтримка друку з'явилася в iTest 1.3. "
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:113
 msgid "Comments"
-msgstr ""
+msgstr "Коментарі"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:117
@@ -381,21 +489,26 @@ msgid ""
 "notes, to-dos and so on.  Comments are saved within the database file and "
 "are therefore unique for each database."
 msgstr ""
+"Використовуйте коментарі щоб писати все, що ви захочете. Це можуть бути "
+"нагадування та нотатки. Коментарі зберігаються в файлі бази даних, тому "
+"є унікальними для кожної із них."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:119
 msgid "You can even use the formatting tools to make your notes look better."
 msgstr ""
+"Ви можете використовувати інструменти форматування, щоб зробити "
+"коментарі кращими на вигляд."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:121
 msgid "\\sshot{itestserver-1_2_0-comments-formatting}{Comments editor}"
-msgstr ""
+msgstr "\\sshot{itestserver-1_2_0-comments-formatting}{Редактор коментарів}"
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:123
 msgid "Using flags"
-msgstr ""
+msgstr "Використання категорій"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:127
@@ -404,16 +517,21 @@ msgid ""
 "divided into several categories, for example fauna and flora.  You can do "
 "this with flags."
 msgstr ""
+"Припустимо, ви маєте базу запитань з біології. Її можна розділити на "
+"декілька типів, наприклад - фауна та флора. Це можна зробити за "
+"допомогою Категорій."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:129
 msgid "To create a new flag, click a checkbox next to an empty field."
 msgstr ""
+"Щоб створити нову категорію, поставте прапорець коло наступного "
+"порожнього поля."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:131
 msgid "\\sshot{itest-1_0_2-flags-checkbox}{An empty flag}"
-msgstr ""
+msgstr "\\sshot{itest-1_0_2-flags-checkbox}{Порожня категорія}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:135
@@ -423,6 +541,10 @@ msgid ""
 "this flag.  If there are any questions assigned, you can no longer disable "
 "the flag (because it is \\quo{in use})."
 msgstr ""
+"Далі, уведіть ім'я. \\quo{Біологія - фауна}, наприклад. Це перша категорія, "
+"що ви створили, тому всі питання будуть автоматично призначені до неї. "
+"Якщо було призначено хоч одне запитання, ви не зможете вилучити цю"
+"категорію, як таку, що використана."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:137
@@ -430,6 +552,8 @@ msgid ""
 "\\sshot{itestserver-1_2_0-flags-disabledcheckbox}{A flag which has been "
 "assigned to one question}"
 msgstr ""
+"\\sshot{itestserver-1_2_0-flags-disabledcheckbox}{Категорія, до якої "
+"було призначено одне питання}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:140
@@ -438,11 +562,14 @@ msgid ""
 "same colour as well.  Flags are also useful when you want to set up a test "
 "with only those questions that are assigned a certain flag."
 msgstr ""
+"Кожна категорія має свій колір і питання, що до неї належать, також "
+"матимуть цей колір. Категорії також корисні, коли ви хочете софрмувати "
+"тест, що складається з питань, належних одній категорії."
 
 #. type: section{#2}
 #: latex/en/iTestServer.tex:142
 msgid "Setting up a server"
-msgstr ""
+msgstr "Налаштування сервера"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:146
@@ -451,11 +578,14 @@ msgid ""
 "recommended to have a printer connected to this server.  Click the Server "
 "mode button in the tool bar."
 msgstr ""
+"Щоб провести тестування, ви маєте налаштувати та запустити сервер. "
+"Рекомендовано мати підключений до сервера принтер. Натисніть кнопку "
+"Режим сервера на панелі інструментів."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:149
 msgid "Now you have several options. {\\bf You can:}"
-msgstr ""
+msgstr "Ви маєте декілька налаштувань. {\\bf Ви можете:}"
 
 #. type: itemize
 #: latex/en/iTestServer.tex:154
@@ -464,6 +594,9 @@ msgid ""
 "the Advanced checkbox unchecked. \\inlineimg{itest-1_0_2-server_settings-"
 "advanced_unchecked} Proceed to step 2."
 msgstr ""
+"{\\bf провести тестування всіма наявними питаннями}\\\\ Залиште "
+"вимкненим прапорець Додатково. \\inlineimg{itest-1_0_2-server_settings-"
+"advanced_unchecked} Перейдіть до кроку 2."
 
 #. type: itemize
 #: latex/en/iTestServer.tex:165
@@ -484,6 +617,23 @@ msgid ""
 "{itestserver-1_2_0-server_settings-advanced-flags-passmarks}{scale="
 "\\sshotscale}"
 msgstr ""
+"{\\bf провести тестування, використовуючи тільки питання із даної категорії "
+"чи категорій.}\\\\ Поставте прапорець Додатково. \\inlineimg{itest-1_0_2-"
+"server_settings-advanced_checked} Оберіть категорії. \\inlineimg{itest-1_0_2-"
+"server_settings-advanced-flags_radiobutton}\\\\ Перенесіть категорії, які ви "
+"хочете "
+"використати в тестуванні, до списку Використано, обравши їх та клацнувши по "
+"стрілці вправо.  \\inlineimg{itest-1_0_2-server_settings-advanced-"
+"rightarrow}\\\\ Також ви можете встановити оцінку проходження (тобто "
+"мінімальну кількість правильних відповідей) на кожну категорію.  iTest "
+"перевірить, чи відповів кожен студент на певну кількість питань з категорії, "
+"для якої вказано поріг проходження (значення більше за 0), щоб "
+"кожен студент має шанси пройти. Щоб тест вважався пройденим, повинні "
+"бути виконані всі умови, тобто набрати всі вказані бали проходження та "
+"загальний бал (див. крок 2). Ця можливість з'явилася в iTest 1.2.\\\\\\\\ "
+"\\img"
+"{itestserver-1_2_0-server_settings-advanced-flags-passmarks}{scale="
+"\\sshotscale}"
 
 #. type: itemize
 #: latex/en/iTestServer.tex:172
@@ -495,16 +645,22 @@ msgid ""
 "use in the test, into the Used list by selecting them and clicking the right "
 "arrow.  \\inlineimg{itest-1_0_2-server_settings-advanced-rightarrow}"
 msgstr ""
+"{\\bf провести тестування з питаннями, обраними вручну.}\\\\ Поставте "
+"прапорець Додатково. \\inlineimg{itest-1_0_2-server_settings-"
+"advanced_checked} Оберіть питання. \\inlineimg{itest-1_0_2-server_settings-"
+"advanced-questions_radiobutton}\\\\ Перемістіть ці питання, що ви хочете "
+"використати в тесті, до списку Використано, виділяючи їх та клацаючи по "
+"стрілці вправо.  \\inlineimg{itest-1_0_2-server_settings-advanced-rightarrow}"
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:174
 msgid "Below, there are several parameters to set."
-msgstr ""
+msgstr "Нижче можна встановити декілька параметрів."
 
 #. type: item[#1]
 #: latex/en/iTestServer.tex:181
 msgid "Test name:"
-msgstr ""
+msgstr "Назва тесту:"
 
 #. type: description
 #: latex/en/iTestServer.tex:181
@@ -515,11 +671,16 @@ msgid ""
 "name into the field next to it.\\\\\\\\ \\img{itest-1_0_2-server_settings-"
 "test_name}{scale=\\sshotscale}"
 msgstr ""
+"Якщо ви не хочете уводити довільну назву тесту, залиште цей прапорець "
+"не виставленим. Буде використано ім'я бази даних як ім'я тесту. Якщо ви "
+"хочете вказати довільне ім'я тесту, поставте прапорець і уведіть ім'я "
+"до текстового поля, що поруч.\\\\\\\\ \\img{itest-1_0_2-server_settings-"
+"test_name}{scale=\\sshotscale}"
 
 #. type: item[#1]
 #: latex/en/iTestServer.tex:187
 msgid "Number of questions:"
-msgstr ""
+msgstr "Кількість запитань:"
 
 #. type: description
 #: latex/en/iTestServer.tex:187
@@ -531,11 +692,17 @@ msgid ""
 "selecting \\quo{maximum}.\\\\\\\\ \\img{itest-1_0_2-server_settings-"
 "num_of_questions}{scale=\\sshotscale}"
 msgstr ""
+"Ви можете виставити кількість запитань, які будуть задані студентам. "
+"Питання будуть обрані автоматично (обмежені лише вашими налаштуваннями "
+"з кроку 1), різні для всіх студентів (якщо не можливо, то, принаймні, в "
+"різному порядку). Ви можете обрати використання всіх наявних запитань, "
+"обравши \\quo{maximum}.\\\\\\\\ "
+"\\img{itest-1_0_2-server_settings-num_of_questions}{scale=\\sshotscale}"
 
 #. type: item[#1]
 #: latex/en/iTestServer.tex:194
 msgid "Groups:"
-msgstr ""
+msgstr "Групи:"
 
 #. type: description
 #: latex/en/iTestServer.tex:194
@@ -548,11 +715,18 @@ msgid ""
 "question.  This feature was introduced in iTest 1.2.\\\\\\\\ \\img"
 "{itestserver-1_2_0-server_settings-groups}{scale=\\sshotscale}"
 msgstr ""
+"Поставте прапорець, щоб дозволити щоб одне запитання з групи з'являлося "
+"тільки в одному тесті. Це значить, що буде довільно обране одне запитання з "
+"певної групи і інші питання з неї не будуть показані. Якщо ви маєте небагато "
+"груп із багатьма питаннями, виставляння цього прапорця означає зменшення "
+"максимальної кількості запитань, так як з одної групи буде показано лише "
+"одне. Ця опція з'явилася в iTest 1.2.\\\\\\\\ \\img"
+"{itestserver-1_2_0-server_settings-groups}{scale=\\sshotscale}"
 
 #. type: item[#1]
 #: latex/en/iTestServer.tex:198
 msgid "Pass mark:"
-msgstr ""
+msgstr "Оцінка проходження:"
 
 #. type: description
 #: latex/en/iTestServer.tex:198
@@ -561,11 +735,14 @@ msgid ""
 "have in order to pass the exam.\\\\\\\\ \\img{itest-1_0_2-server_settings-"
 "pass_mark}{scale=\\sshotscale}"
 msgstr ""
+"Тут ви можете вказати мінімальну кількість вірних відповідей, які повинен "
+"дати студент щоб пройти тест.\\\\\\\\ \\img{itest-1_0_2-server_settings-"
+"pass_mark}{scale=\\sshotscale}"
 
 #. type: item[#1]
 #: latex/en/iTestServer.tex:206
 msgid "Time:"
-msgstr ""
+msgstr "Час:"
 
 #. type: description
 #: latex/en/iTestServer.tex:206
@@ -579,6 +756,14 @@ msgid ""
 "of their time for one question and 30 seconds for another.\\\\\\\\ \\img"
 "{itest-1_0_2-server_settings-time}{scale=\\sshotscale}"
 msgstr ""
+"Ви маєте вказати час, даний на проходження тесту \\quo{(Час ) "
+"весь тест} увівши його. Також, ви можете задавати час, відведений "
+"на одне запитання, який буде помножено на кількість питань "
+"в тесті, щоб отримати загальний час тестування. Це корисно, коли "
+"ви хочете сказати студентам, що вони мають по хвилині на запитання. "
+"Це не заборонить студентам використати 1 хвилину 30 секунд "
+"їхнього часу на одне запитання та 30 секунд на інше.\\\\\\\\ \\img"
+"{itest-1_0_2-server_settings-time}{scale=\\sshotscale}"
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:209
@@ -586,6 +771,8 @@ msgid ""
 "You are now ready to start the server.  Click the Start server button or go "
 "to the Server menu and select Start server."
 msgstr ""
+"Тепер все готово щоб запустити сервер. Натисніть Запустити сервер або "
+"увійдіть до меню Сервер та оберіть Запустити сервер."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:215
@@ -597,6 +784,12 @@ msgid ""
 "Everything is done automatically, you will be informed about any activity of "
 "the printer via the server log."
 msgstr ""
+"Якщо ви не маєте налаштованого принтера, iTest попросить налаштувати його. "
+"Коли ви оберете принтер та налаштуєте його, ви маєте натиснути Друкувати. "
+"Відразу нічого не буде надруковано. Налаштування буде використано, "
+"коли студенти закінчать проходження тесту, для друкування результатів. "
+"Все проходитиме автоматично, ви будете проінформовані про всю роботу "
+"принтера через журнал сервера."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:219
@@ -609,6 +802,13 @@ msgid ""
 "under Windows.  Computers running Mac OS X and most Linux distributions can "
 "create PDF files out-of-the-box."
 msgstr ""
+"Якщо ви не хочете друкувати результати і тримати їх лише в електронному "
+"вигляді (так ви зможете надіслати їх студентам по електронній пошті), "
+"ви можете використати програми типу PDF Creator (вільне ПЗ), Adobe Acrobat "
+"чи Macromedia FlashPaper (можливо, більш підхожі) та налаштувати iTest на "
+"використання віртуального принтера, що вони надають. Варто зазначити, "
+"що це потрібно лише під Windows. Комп'ютери з Mac OS X та більшістю "
+"дистрибутивів Linux можуть типово створювати файли PDF."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:223
@@ -616,11 +816,13 @@ msgid ""
 "Now you may connect client computers.  See the iTestClient documentation for "
 "details on how to do this."
 msgstr ""
+"Тепер ви можете під'єднати клієнтські комп'ютери. Дивіться документацію до "
+"iTestClient за детальними поясненнями як це зробити."
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:225
 msgid "Off-line usage"
-msgstr ""
+msgstr "Використання без мережі"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:227
@@ -628,11 +830,13 @@ msgid ""
 "In case there is no network available, you will need to load the test into "
 "each client computer manually:"
 msgstr ""
+"Якщо немає доступної мережі, ви муситимете завантажити тест "
+"на кожен комп'ютер вручну:"
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:230
 msgid "Set up a server the normal way."
-msgstr ""
+msgstr "Встановіть сервер звичайним способом."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:234
@@ -641,11 +845,14 @@ msgid ""
 "it to a flash disk or any other kind of removable media.  Do not stop the "
 "server now!"
 msgstr ""
+"Експортуйте тест, зайшовши в меню Сервер та обравши Експортувати тест. "
+"Збережіть його на флеш-диск або інший змінний носій. Не зупиняйте "
+"сервера поки!"
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:236
 msgid "Plug the media into a client computer."
-msgstr ""
+msgstr "Вставте носій у клієнтський комп'ютер."
 
 #. type: itemize
 #: latex/en/iTestServer.tex:240
@@ -655,6 +862,10 @@ msgid ""
 "iTestClient, you may unplug the media (it is no longer needed) and do the "
 "same with the rest of the client computers."
 msgstr ""
+"Під {\\bf Windows} ви можете відкрити вікно Провідника, перейти до теки "
+"з експортованим тестом та двічі клацнути на ньому. Його буде завантажено "
+"до iTestClient, тоді ви можете вийняти носій (він більше не потрібен) і "
+"зробити те саме на решті клієнтських комп'ютерів."
 
 #. type: itemize
 #: latex/en/iTestServer.tex:245
@@ -665,6 +876,12 @@ msgid ""
 "longer needed) and do the same with the rest of the client computers.  For "
 "further details on how to do this, see the iTestClient documentation."
 msgstr ""
+"Під {\\bf будь якими} іншими {\\bf операційними системами} (і під Windows, "
+"якщо бажаєте), запустіть iTestClient, вручну знайдіть файл на носії та "
+"завантажте "
+"його. Коли він буде завантажений в iTestClient, можна витягувати носій (він "
+"більше не потрібен) та зробити те саме на інших клієнтських комп'ютерах. "
+"Для детальнішої інформації про це, дивіться документацію до iTestClient."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:249
@@ -676,6 +893,12 @@ msgid ""
 "{}User}).  Preferably, copy all the files from all the client computers into "
 "a separate directory on your removable media."
 msgstr ""
+"Коли студенти закінчили проходження тесту, вставте змінний носій до "
+"кожного комп'ютера та скопіюйте файл, створений iTestClient. Типово, "
+"він розташований в теці користувача (у Windows це щось типу "
+"{\\tt C:\\textbackslash{}Documents and Settings\\textbackslash"
+"{}User}). Краще копіюйте файли з клієнтських комп'ютерів в окремі "
+"теки на вашому змінному носії."
 
 #. type: enumerate
 #: latex/en/iTestServer.tex:256
@@ -685,11 +908,15 @@ msgid ""
 "clients' files.  iTest should load all of them automatically, and their "
 "results should be printed.  You may now stop the server."
 msgstr ""
+"Вставте змінний носій в сервер. У меню Сервер оберіть Додати off-line "
+"клієнтів. Оберіть теку на змінному носії з клієнтськими файлами. iTest "
+"завантажить їх усі автоматично та роздрукує результати. Тепер ви "
+"можете зупинити сервер."
 
 #. type: section{#2}
 #: latex/en/iTestServer.tex:258
 msgid "Viewing saved sessions"
-msgstr ""
+msgstr "Перегляд збережених сесій"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:261
@@ -698,6 +925,9 @@ msgid ""
 "session option the Server menu when the server is running.  It will then be "
 "saved when you stop the server."
 msgstr ""
+"Для того, щоб мати можливість переглянути результати проведених сесій, "
+"ви маєте вибрати пункт Зберегти сесію в меню Сервер, коли він запущений. "
+"Вона буде збережена, коли ви зупинене сервер."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:266
@@ -707,11 +937,14 @@ msgid ""
 "click its item in this list.  The session will be loaded and ready for "
 "viewing."
 msgstr ""
+"Щоб переглянути сесії, перейдіть в Збережені сесії, клацнувши кнопку на "
+"панелі інструментів. Ви побачите список попередніх сесій. Двічі клацніть "
+"на одній із них. Сесія буде завантажена і готова для перегляду."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:268
 msgid "\\sshot{itest-1_0_2-saved_sessions-list}{List of saved sessions}"
-msgstr ""
+msgstr "\\sshot{itest-1_0_2-saved_sessions-list}{Список збережених сесій}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:270
@@ -719,11 +952,13 @@ msgid ""
 "You can now view the results of a student by clicking a name in the list of "
 "students."
 msgstr ""
+"Тепер ви можете переглянути результати студента, клацнувши його "
+"ім'я в списку студентів."
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:272
 msgid "Printing"
-msgstr ""
+msgstr "Друк"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:276
@@ -734,11 +969,16 @@ msgid ""
 "to what you want to print.  You can only print results of a student if a "
 "student is selected in the list of students."
 msgstr ""
+"Коли ви переглядаєте збережену сесію, ви можете також роздрукувати "
+"результати студента чи всіх студентів, чи підсумок сесії. Для цього, "
+"зайдіть до меню Сесія та клацніть один з перших трьох пунктів, залежно "
+"від того, що ви хочете роздрукувати. Ви можете роздрукувати результати "
+"обраного одного чи декількох студентів."
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:278
 msgid "Exporting a log"
-msgstr ""
+msgstr "Експортувати журнал"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:283
@@ -748,11 +988,15 @@ msgid ""
 "and select the Export log option.  Now, choose a name for the file and save "
 "it."
 msgstr ""
+"Якщо сесія має журнал, ви можете експортувати його як html сторінку. "
+"Для цього треба завантажити сесію. Далі зайдіть в меню Сесія та "
+"оберіть пункт Експортувати журнал. Тепер уведіть ім'я файлу для "
+"збереження та збережіть."
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:285
 msgid "Deleting a log"
-msgstr ""
+msgstr "Вилучення журналу"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:290
@@ -762,11 +1006,15 @@ msgid ""
 "to the Session menu and select the Delete log option.  You will be asked to "
 "confirm this action."
 msgstr ""
+"Коли журнал сесії більше не потрібен, ви можете його вилучити щоб "
+"зекономити місце на диску. Для цього завантажте сесію, зайдіть в меню "
+"Сесія та оберіть Видалити журнал. iTest запитає підтвердження "
+"цієї дії."
 
 #. type: subsection{#2}
 #: latex/en/iTestServer.tex:292
 msgid "Archiving, restoring and copying a session"
-msgstr ""
+msgstr "Архівування, відновлення та копіювання сесії"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:298
@@ -778,6 +1026,12 @@ msgid ""
 "the same database on a different computer, these sessions will not be shown, "
 "because they are only available on the computer where you archive them."
 msgstr ""
+"В iTest 1.1 з'явилася можливість створювати архіви. В них можна зберігати "
+"сесії, що пов'язані з базою даних за іменем. Коли ви відкриваєте базу, iTest "
+"перевіряє, чи є за цим іменем архівовані сесії. За потреби, вони можуть "
+"бути завантажені для перегляду. Якщо ви відкриєте цю базу на іншому "
+"комп'ютері, ці сесії не будуть показані, тому що вони доступні лише на "
+"комп'ютері, де були архівовані."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:301
@@ -786,11 +1040,14 @@ msgid ""
 "archive, go to the Session menu and select Archive session.  You'll see the "
 "session jump from the list of sessions to the archive."
 msgstr ""
+"Архівування сесії робиться легко, достатньо завантажити її, зайти у "
+"меню Сесія та обрати пункт Архівувати сесію. Ви побачите, що сесія "
+"перемістилася з списку сесій до архіву."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:303
 msgid "\\sshot{itest-1_1_1-saved_sessions-archive}{List of archived sessions}"
-msgstr ""
+msgstr "\\sshot{itest-1_1_1-saved_sessions-archive}{Список архівованих сесій}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:306
@@ -798,6 +1055,8 @@ msgid ""
 "Restoring a session brings it back into the database.  To do so, choose "
 "Restore session from the Session menu."
 msgstr ""
+"Відновлення сесії повертає її назад до бази даних. Для цього оберіть "
+"Відновити сесію з меню Сесія."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:308
@@ -805,11 +1064,13 @@ msgid ""
 "To copy a session to or from the archive, use the appropriate actions in the "
 "Session menu."
 msgstr ""
+"Щоб скопіювати сесію до чи з архіву, використовуйте відповідні пункти "
+"з меню Сесія."
 
 #. type: section{#2}
 #: latex/en/iTestServer.tex:310
 msgid "Using the statistics"
-msgstr ""
+msgstr "Використання статистики"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:315
@@ -820,6 +1081,11 @@ msgid ""
 "question.  If available, this information is displayed at the bottom of the "
 "editor when you select a question."
 msgstr ""
+"iTest пам'ятає кожну відповідь кожного студента, вірну чи хибну. Кількість "
+"вірних та хибних відповідей зберігається в базі даних разом із запитанням. "
+"Ці числа використовуються щоб визначити важкість даного запитання. "
+"Якщо така інформація доступна, вона показується у верхній частині редактора, "
+"коли ви обираєте запитання."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:317
@@ -827,6 +1093,8 @@ msgid ""
 "\\sshot{itest-1_0_2-questions-statistics}{Statistics available for a "
 "question}"
 msgstr ""
+"\\sshot{itest-1_0_2-questions-statistics}{Доступна статистика "
+"для запитання}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:322
@@ -836,6 +1104,11 @@ msgid ""
 "in your database.  In order to do so, select Overall statistics from the "
 "Database menu.  A window will appear."
 msgstr ""
+"Клацніть по \\quo{налаштувати складність} і буде автоматично вирахувана "
+"складність питання, виходячи із кількості вірних та хибних відповідей, даних "
+"на нього. Ви можете налаштувати складність всіх запитань у вашій базі "
+"даних. Для цього оберіть пункт Загальна статистика в меню База даних. "
+"З'явиться відповідне вікно."
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:324
@@ -843,6 +1116,8 @@ msgid ""
 "\\sshot{itestserver-1_2_0-statistics-window}{Overall statistics for a "
 "database}"
 msgstr ""
+"\\sshot{itestserver-1_2_0-statistics-window}{Загальна статистика "
+"бази даних}"
 
 #. type: Plain text
 #: latex/en/iTestServer.tex:326
@@ -851,6 +1126,9 @@ msgid ""
 "calculated ones.  You can also change the difficulty of some questions only "
 "by clicking the corresponding Adjust difficulty button on the right."
 msgstr ""
+"Натисніть Налаштувати все і буде вирахувана складність для всіх "
+"запитань. Ви можете також змінювати складність лише деяких "
+"питань, клацнувши на кнопці Налаштувати складність навпроти нього."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:8
@@ -863,11 +1141,18 @@ msgid ""
 "automatically sent to the server.  In case of connection breakdown, the "
 "backup file can be used -- it can be loaded back into the server."
 msgstr ""
+"iTestClient використовується як клієнтська програма. Він завантажує тест, "
+"створений сервером та випадково обирає запитання, формуючи унікальний "
+"тест для студента. Він може приєднуватися до сервера через мережу, або "
+"завантажувати експортований сервером тест із файлу. Коли тестування "
+"закінчено, результати зберігаються в файл, або відсилаються на сервер, "
+"якщо клієнт під'єднано до мережі. Якщо стався обрив з'єднання, буде "
+"використано файл резервної копії -- він може бути завантажений на сервер."
 
 #. type: section{#2}
 #: latex/en/iTestClient.tex:10
 msgid "On-line usage"
-msgstr ""
+msgstr "Проведення тестування через мережу"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:15
@@ -878,6 +1163,11 @@ msgid ""
 "is different way to obtain this information, and it is thus beyond the scope "
 "of this documentation."
 msgstr ""
+"Спершу ви маєте налаштувати та запустити сервер. Дивіться "
+"документацію до iTestServer для детальнішої інформації. Ви маєте знати "
+"ІР адресу сервера або його мережеве ім'я. Для кожної операційної "
+"система є різні шляхи отримання цієї інформації, про це можна почитати "
+"в документації по них"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:20
@@ -888,16 +1178,21 @@ msgid ""
 "next field.  Type the server port in here and press Return (Enter) again.  "
 "The client should now connect."
 msgstr ""
+"Коли сервер запущено, запустіть iTestClient на клієнтському комп'ютері, "
+"що під'єднаний до мережі, в якій є сервер. Уведіть ІР адресу сервера або "
+"його ім'я в поле Ім'я сервера та, натиснувши Enter, перейдіть до наступного "
+"поля. Уведіть порт сервера та натисніть Enter знову. Клієнт здійснить "
+"з'єднання."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:22
 msgid "\\sshot{itestwri-1_0_2-main-network}{Connecting to an iTest server}"
-msgstr ""
+msgstr "\\sshot{itestwri-1_0_2-main-network}{Приєднання до сервера iTest}"
 
 #. type: section{#2}
 #: latex/en/iTestClient.tex:24
 msgid "Setting the output file location"
-msgstr ""
+msgstr "Вибір розташування вихідного файлу"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:27
@@ -906,11 +1201,14 @@ msgid ""
 "connection breakdown or in case there is no network available and the off-"
 "line approach is used."
 msgstr ""
+"Вихідний файл містить відповіді студента. Він використовується у "
+"випадку розриву з'єднання мережі, або у випадку її недоступності."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:29
 msgid "\\sshot{itestwri-1_0_2-main-output}{Setting the output file location}"
 msgstr ""
+"\\sshot{itestwri-1_0_2-main-output}{Вибір розташування вихідного файлу}"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:32
@@ -918,6 +1216,8 @@ msgid ""
 "The default location is the home directory of the current user.  Under "
 "Windows, this is the \\\\Documents and Settings\\\\UserName directory."
 msgstr ""
+"Типовим розташуванням є домашня тека поточного користувача. У "
+"Windows це є тека \\\\Documents and Settings\\\\UserName."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:35
@@ -926,11 +1226,15 @@ msgid ""
 "and click Browse.  You shouldn't choose any directory visible to the "
 "student, least of all the desktop or the My Documents folder."
 msgstr ""
+"Якщо ви хочете вказати інше розташування, зніміть прапорець "
+"\"Використовувати типові значення\" та натисніть Перегляд. Ви не "
+"повинні обирати теку, яку бачать студенти, наприклад стільниця чи "
+"Документи."
 
 #. type: section{#2}
 #: latex/en/iTestClient.tex:37
 msgid "Other settings"
-msgstr ""
+msgstr "Інші налаштування"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:39
@@ -938,6 +1242,8 @@ msgid ""
 "\\sshot{itestwri-1_1_1-other_settings-hide_question_names}{Hide question "
 "names}"
 msgstr ""
+"\\sshot{itestwri-1_1_1-other_settings-hide_question_names}{Показувати номери "
+"питань замість їх назв}"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:42
@@ -946,6 +1252,9 @@ msgid ""
 "\\quo{Hide question names, show numbers instead}.  This feature was "
 "introduced in iTest 1.1."
 msgstr ""
+"Якщо ви хочете, щоб студенти не бачили назв запитань, поставте "
+"\\quo{Показувати номери питань замість їх назв}. Ця можливість "
+"з'явилася в iTest 1.1."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:44
@@ -953,6 +1262,8 @@ msgid ""
 "\\sshot{itestclient-1_3_0-other_settings-do_not_show_correct_answers}{Do not "
 "show correct answers}"
 msgstr ""
+"\\sshot{itestclient-1_3_0-other_settings-do_not_show_correct_answers}{Не "
+"показувати правильні відповіді}"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:47
@@ -961,11 +1272,14 @@ msgid ""
 "check \\quo{Do not show correct answers at the end of the test}.  This "
 "feature was introduced in iTest 1.3."
 msgstr ""
+"Якщо ви не хочете, щоб правильні відповіді відображалися після закінчення "
+"тестування, поставте \\quo{Не показувати правильних відповідей до закінчення "
+"тестування}. Ця можливість з'явилася в iTest 1.3."
 
 #. type: section{#2}
 #: latex/en/iTestClient.tex:49
 msgid "Testing"
-msgstr ""
+msgstr "Тестування"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:51
@@ -973,6 +1287,8 @@ msgid ""
 "When you have configured the client, it is time to click the Ready button in "
 "the lower right corner of the screen."
 msgstr ""
+"Після того, як ви налаштували клієнт, можна натиснути кнопку Готовий у "
+"нижньому правому кутку."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:55
@@ -981,6 +1297,9 @@ msgid ""
 "front of a client computer and are presented with the Welcome screen.  They "
 "type in their name and click Start."
 msgstr ""
+"Тепер час впускати студентів до кімнати. Вони сідають за клієнтські "
+"комп'ютери та бачать екран привітання. Вони уводять свої імена та "
+"натискають Розпочати."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:60
@@ -992,6 +1311,12 @@ msgid ""
 "they're right or wrong, they will be informed at the end of the test (unless "
 "you are using the off-line approach, which does not support this)."
 msgstr ""
+"Вони можуть побачити час, що залишився, клацнувши Показати час, що "
+"залишився знизу екрана. Щоразу, коли вони вибирають відповідь, питання "
+"в списку підсвічується зеленим. Зелений колір не означає правильної "
+"відповіді. Чи відповіді вірні, чи ні, студенти будуть повідомлені по "
+"закінченню тесту (при тестуванні в off-line режимі вірні відповіді "
+"не показуються."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:64
@@ -1001,6 +1326,10 @@ msgid ""
 "separate window, allowing the student to resize it and thus take a closer "
 "look at it.  This feature was introduced in iTest 1.3."
 msgstr ""
+"Якщо певне запитання містить SVG зображення, воно буде показане під "
+"текстом запитання. Клацніть по синьому заголовку і зображення буде показане "
+"в окремому вікні, дозволяючи студенту збільшити його і краще роздивитися. "
+"Це функція з'явилася у iTest 1.3."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:68
@@ -1009,11 +1338,14 @@ msgid ""
 "are ready sooner than that, they can choose to finish the exam by clicking "
 "Finish.  They will be asked to confirm this action."
 msgstr ""
+"Коли виходить час, тестування автоматично завершується. Якщо студенти "
+"закінчать раніше, вони зможуть закінчити тестування, натиснувши Закінчити. "
+"Програма запитає їх підтвердження цієї дії."
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:70
 msgid "\\sshot{itestclient-1_2_0-newtest_button}{New test button}"
-msgstr ""
+msgstr "\\sshot{itestclient-1_2_0-newtest_button}{Новий тест}"
 
 #. type: Plain text
 #: latex/en/iTestClient.tex:73
@@ -1022,3 +1354,8 @@ msgid ""
 "button.  If you are using the off-line approach, the media with the test "
 "file must still be connected.  This feature was introduced in iTest 1.2."
 msgstr ""
+"Коли тест закінчено, ви можете запустити новий, клацнувши кнопку "
+"Новий тест. Якщо ви працюєте без мережі, потрібно вставити носій "
+"з файлом тесту. Ця функція з'явилася в iTest 1.2."
+
+
